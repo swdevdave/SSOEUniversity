@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout_top_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="TIME"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_tan"
+                android:padding="5dp"
+                android:text="SESSION A"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_tan"
+                android:padding="5dp"
+                android:text="SESSION B"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/dark_tan"
+                android:padding="5dp"
+                android:text="SESSION C"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout_top_1"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="7:00-8:00AM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_opening"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/Yellow"
+                android:padding="5dp"
+                android:text="Breakfast "
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2_1"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="8:10-9:40AM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="Project Profiles: NIH, DTE, Sentury Tire, GM Conveyor Study "
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3_1"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="9:50-10:10AM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="Team Activity"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4_1"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="10dp"
+                android:text="10:20-11:30AM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_red"
+                android:padding="5dp"
+                android:text="BIM2FAB: The Setbacks and Triumphs"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_blue"
+                android:padding="5dp"
+                android:text="Keeping Collaboration Civil"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_orange"
+                android:padding="5dp"
+                android:text="Bluebeam Revu Studio Sessions"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5_1"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="11:40-12:30PM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="Networking Lunch"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7_1"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6_1"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="15dp"
+                android:text="12:40-1:50PM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_red"
+                android:padding="5dp"
+                android:text="Are you In or Out? Exporting and Importing Data with Plant 3D."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_blue"
+                android:padding="5dp"
+                android:text="How about a Nice Hawaiian Punchlist?"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_orange"
+                android:padding="5dp"
+                android:text="The Art of the Family"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8_1"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout7_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="15dp"
+                android:text="2:00-3:10PM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_red"
+                android:padding="5dp"
+                android:text="Commitment to People: Using Kanban"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_blue"
+                android:padding="5dp"
+                android:text="Navisworks Simulate as a Designer’s Tool."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_orange"
+                android:padding="5dp"
+                android:text="Capturing your Clients Reality on Small Projects with Laser Scanner Made Easy"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9_1"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout8_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="15dp"
+                android:text="3:20-4:30PM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_red"
+                android:padding="5dp"
+                android:text="Its All About the Plan! BIM
+Execution Plan That is..."
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_blue"
+                android:padding="10dp"
+                android:text="Moving Mountains - Getting Large Clients on Board with New Technologies and the Cloud"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/off_orange"
+                android:padding="5dp"
+                android:text="Diagramming the System"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout9_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="4:40-5:00PM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="Plus / Delta Conference Debrief "
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout11_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout10_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/tan"
+                android:padding="5dp"
+                android:text="5:30PM"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/Yellow"
+                android:padding="5dp"
+                android:text="Social Function"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
