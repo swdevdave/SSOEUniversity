@@ -42,7 +42,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/hilton_address"
+        android:clickable="true"
         style="@style/SSOE"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -51,6 +52,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:focusable="true"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
@@ -67,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:focusable="true"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/hilton_address" />
 
 
 </android.support.constraint.ConstraintLayout>

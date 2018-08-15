@@ -5,7 +5,7 @@
     <string name="ssoe_u">SSOE U</string>
     <string name="_2nd_annual">2nd Annual</string>
     <string name="august_22nd_23rd">August 22nd-23rd</string>
-    <string name="hilton_gardens">Hilton Gardens Inn \n5995 Levis Commons Rd., \nPerrysbury, OH 43551</string>
+    <string name="hilton_gardens">Hilton Gardens Inn \n6165 Levis Commons Rd., \nPerrysbury, OH 43551</string>
     <string name="hilton_gardens_phone">Phone: (419) 873–0700</string>
 
 
@@ -63,6 +63,8 @@
     <string name="_5_30pm">5:30PM</string>
     <string name="social_function">Social Function</string>
     <string name="click_a_button_below_to_open_local_things_to_do">Click a button below to open local things to do.</string>
+
+    <string name="Google_Api">AIzaSyB1y0rj-pw_pb8oFjkh2sB31vlZ0Va3Jq0</string>
 
 
 </resources>
