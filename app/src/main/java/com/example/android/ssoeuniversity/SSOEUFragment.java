@@ -34,6 +34,8 @@ public class SSOEUFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_ssoeu, container, false);
 
+        // FloatingActionButton twitterAction = view.findViewById()
+
 
         if (isServicesOK()) {
             maps(view);
