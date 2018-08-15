@@ -20,7 +20,7 @@ public class ThingsToDoFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_things_to_do, container, false);
 
         Button btnHilton = view.findViewById(R.id.btnHilton);
-        Button btnDowntown = view.findViewById(R.id.btnDowntown);
+        final Button btnDowntown = view.findViewById(R.id.btnDowntown);
         Button btnLevis = view.findViewById(R.id.btnLevis);
 
         btnLevis.setOnClickListener(new View.OnClickListener() {
@@ -34,16 +34,16 @@ public class ThingsToDoFragment extends Fragment {
         btnDowntown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent levis = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.downtowntoledo.org/events/"));
-                startActivity(levis);
+                Intent downTown = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.downtowntoledo.org/events/"));
+                startActivity(downTown);
             }
         });
 
         btnHilton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent levis = new Intent(Intent.ACTION_VIEW, Uri.parse("http://hiltongardeninn3.hilton.com/en/hotels/ohio/hilton-garden-inn-toledo-perrysburg-TOLPBGI/attractions/index.html"));
-                startActivity(levis);
+                Intent hilton = new Intent(Intent.ACTION_VIEW, Uri.parse("http://hiltongardeninn3.hilton.com/en/hotels/ohio/hilton-garden-inn-toledo-perrysburg-TOLPBGI/attractions/index.html"));
+                startActivity(hilton);
             }
         });
 
