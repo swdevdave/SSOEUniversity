@@ -1,20 +1,35 @@
 <resources>
     <string name="app_name">SSOE University</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
-    <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
 
     <!--  Fragment Names -->
     <string name="ssoe_u">SSOE U</string>
-    <string name="day1">Day 1</string>
-    <string name="day2">Day 2</string>
-    <string name="things_to_do">To Do</string>
     <string name="_2nd_annual">2nd Annual</string>
     <string name="august_22nd_23rd">August 22nd-23rd</string>
     <string name="hilton_gardens">Hilton Gardens Inn \n5995 Levis Commons Rd., \nPerrysbury, OH 43551</string>
-    <string name="hilton_gardens_phone">Phone: (419) 873-0700</string>
+    <string name="hilton_gardens_phone">Phone: (419) 873–0700</string>
+
+
+    <string name="opening_keynote_chuck_mies_senior_manager_autodesk">Opening Keynote – Chuck Mies, Senior Manager @ Autodesk</string>
+
+    <string name="safety_first_with_bim_360">Safety First - with BIM 360</string>
+    <string name="the_whole_package">The Whole Package</string>
+    <string name="navisworks_timeliner">Navisworks TimeLiner</string>
+
+
+    <string name="the_collaborative_model_and_checking_process">The Collaborative Model and Checking Process</string>
+    <string name="large_file_conversions_and_simplification">Large File Conversions and Simplification</string>
+    <string name="revit_automation">Revit Automation</string>
+
+    <string name="you_scream_i_scream_we_all_scream_for_help">You Scream, I Scream, We All Scream for Help!</string>
+    <string name="the_vdc_gaunlet_how_the_proper_mix_of_software_and_collaboration_can_render_the_most_challenging_projects_trivial">The VDC Gaunlet - How the Proper Mix of Software and Collaboration Can Render the Most Challenging Projects Trivial</string>
+    <string name="the_virtual_realm_of_lumion">The Virtual Realm of Lumion</string>
+    <string name="bim2fab_steel_driving_greater_value">BIM2FAB STEEL - Driving Greater Value</string>
+    <string name="ask_a_programmer">Ask a Programmer</string>
+    <string name="lost_and_found_in_translation_moving_files_between_inventor_revit_and_plant_3d">Lost and Found in Translation: Moving Files Between Inventor, Revit, and Plant 3D</string>
+    <string name="day_one_conclusion_and_plus_delta">Day One Conclusion and Plus / Delta</string>
+    <string name="levi_commons">Levi Commons</string>
+    <string name="downtown_toledo">Downtown Toledo</string>
+    <string name="hilton_garden_inn">Hilton Garden Inn</string>
     <string name="time">TIME</string>
     <string name="session_a">SESSION A</string>
     <string name="session_b">SESSION B</string>
@@ -22,30 +37,32 @@
     <string name="_7_00_8_00am">7:00-8:00AM</string>
     <string name="breakfast">Breakfast</string>
     <string name="_8_10_9_40am">8:10-9:40AM</string>
-    <string name="opening_keynote_chuck_mies_senior_manager_autodesk">Opening Keynote – Chuck Mies, Senior Manager @ Autodesk</string>
+    <string name="project_profiles_nih_dte_sentury_tire_gm_conveyor_study">Project Profiles: NIH, DTE, Sentury Tire, GM Conveyor Study</string>
     <string name="_9_50_10_10am">9:50-10:10AM</string>
     <string name="team_activity">Team Activity</string>
     <string name="_10_20_11_30am">10:20-11:30AM</string>
-    <string name="saftey_first_with_bim_360">Saftey First - with BIM 360</string>
-    <string name="the_whole_package">The Whole Package</string>
-    <string name="navisworks_timeliner">Navisworks TimeLiner</string>
+    <string name="bim2fab_the_setbacks_and_triumphs">BIM2FAB: The Setbacks and Triumphs</string>
+    <string name="keeping_collaboration_civil">Keeping Collaboration Civil</string>
+    <string name="bluebeam_revu_studio_sessions">Bluebeam Revu Studio Sessions</string>
     <string name="_11_40_12_30pm">11:40-12:30PM</string>
     <string name="networking_lunch">Networking Lunch</string>
     <string name="_12_40_1_50pm">12:40-1:50PM</string>
-    <string name="the_collaborative_model_and_checking_process">The Collaborative Model and Checking Process</string>
-    <string name="large_file_conversions_and_simplification">Large File Conversions and Simplification</string>
-    <string name="revit_automation">Revit Automation</string>
+    <string name="are_you_in_or_out_exporting_and_importing_data_with_plant_3d">Are you In or Out? Exporting and Importing Data with Plant 3D.</string>
+    <string name="how_about_a_nice_hawaiian_punchlist">How about a Nice Hawaiian Punchlist?</string>
+    <string name="the_art_of_the_family">The Art of the Family</string>
     <string name="_2_00_3_10pm">2:00-3:10PM</string>
-    <string name="you_scream_i_scream_we_all_scream_for_help">You Scream, I Scream, We All Scream for Help!</string>
-    <string name="the_vdc_gaunlet_how_the_proper_mix_of_software_and_collaboration_can_render_the_most_challenging_projects_trivial">The VDC Gaunlet - How the Proper Mix of Software and Collaboration Can Render the Most Challenging Projects Trivial</string>
-    <string name="the_virtual_realm_of_lumion">The Virtual Realm of Lumion</string>
+    <string name="commitment_to_people_using_kanban">Commitment to People: Using Kanban</string>
+    <string name="navisworks_simulate_as_a_designer_s_tool">Navisworks Simulate as a Designer’s Tool.</string>
+    <string name="capturing_your_clients_reality_on_small_projects_with_laser_scanner_made_easy">Capturing your Clients Reality on Small Projects with Laser Scanner Made Easy</string>
     <string name="_3_20_4_30pm">3:20-4:30PM</string>
-    <string name="bim2fab_steel_driving_greater_value">BIM2FAB STEEL - Driving Greater Value</string>
-    <string name="ask_a_programmer">Ask a Programmer</string>
-    <string name="lost_and_found_in_translation_moving_files_between_inventor_revit_and_plant_3d">Lost and Found in Translation: Moving Files Between Inventor, Revit, and Plant 3D</string>
+    <string name="its_all_about_the_plan_bim_execution_plan_that_is">Its All About the Plan! BIM Execution Plan That is…</string>
+    <string name="moving_mountains_getting_large_clients_on_board_with_new_technologies_and_the_cloud">Moving Mountains - Getting Large Clients on Board with New Technologies and the Cloud</string>
+    <string name="diagramming_the_system">Diagramming the System</string>
     <string name="_4_40_5_00pm">4:40-5:00PM</string>
-    <string name="day_one_conclusion_and_plus_delta">Day One Conclusion and Plus / Delta</string>
+    <string name="plus_delta_conference_debrief">Plus / Delta Conference Debrief</string>
     <string name="_5_30pm">5:30PM</string>
     <string name="social_function">Social Function</string>
+    <string name="click_a_button_below_to_open_local_things_to_do">Click a button below to open local things to do.</string>
+
 
 </resources>

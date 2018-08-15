@@ -27,7 +27,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="TIME"
+                android:text="@string/time"
                 android:textColor="@color/white"
                 android:textSize="12sp" />
 
@@ -38,7 +38,7 @@
                 android:layout_weight="1"
                 android:background="@color/dark_tan"
                 android:padding="5dp"
-                android:text="SESSION A"
+                android:text="@string/session_a"
                 android:textColor="@color/white"
                 android:textSize="12sp" />
 
@@ -49,7 +49,7 @@
                 android:layout_weight="1"
                 android:background="@color/dark_tan"
                 android:padding="5dp"
-                android:text="SESSION B"
+                android:text="@string/session_b"
                 android:textColor="@color/white"
                 android:textSize="12sp" />
 
@@ -60,7 +60,7 @@
                 android:layout_weight="1"
                 android:background="@color/dark_tan"
                 android:padding="5dp"
-                android:text="SESSION C"
+                android:text="@string/session_c"
                 android:textColor="@color/white"
                 android:textSize="12sp" />
 
@@ -86,19 +86,18 @@
                 android:layout_weight="3"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="7:00-8:00AM"
+                android:text="@string/_7_00_8_00am"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
             <TextView
-                android:id="@+id/tv_opening"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="1dp"
                 android:layout_weight="1"
                 android:background="@color/Yellow"
                 android:padding="5dp"
-                android:text="Breakfast "
+                android:text="@string/breakfast"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -125,7 +124,7 @@
                 android:layout_weight="3"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="8:10-9:40AM"
+                android:text="@string/_8_10_9_40am"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -137,7 +136,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="Project Profiles: NIH, DTE, Sentury Tire, GM Conveyor Study "
+                android:text="@string/project_profiles_nih_dte_sentury_tire_gm_conveyor_study"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -164,7 +163,7 @@
                 android:layout_weight="3"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="9:50-10:10AM"
+                android:text="@string/_9_50_10_10am"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -176,7 +175,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="Team Activity"
+                android:text="@string/team_activity"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -203,7 +202,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="10dp"
-                android:text="10:20-11:30AM"
+                android:text="@string/_10_20_11_30am"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -215,7 +214,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_red"
                 android:padding="5dp"
-                android:text="BIM2FAB: The Setbacks and Triumphs"
+                android:text="@string/bim2fab_the_setbacks_and_triumphs"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -227,7 +226,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_blue"
                 android:padding="5dp"
-                android:text="Keeping Collaboration Civil"
+                android:text="@string/keeping_collaboration_civil"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -239,7 +238,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_orange"
                 android:padding="5dp"
-                android:text="Bluebeam Revu Studio Sessions"
+                android:text="@string/bluebeam_revu_studio_sessions"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -267,7 +266,7 @@
                 android:layout_weight="3"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="11:40-12:30PM"
+                android:text="@string/_11_40_12_30pm"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -279,7 +278,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="Networking Lunch"
+                android:text="@string/networking_lunch"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -307,7 +306,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="15dp"
-                android:text="12:40-1:50PM"
+                android:text="@string/_12_40_1_50pm"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -319,7 +318,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_red"
                 android:padding="5dp"
-                android:text="Are you In or Out? Exporting and Importing Data with Plant 3D."
+                android:text="@string/are_you_in_or_out_exporting_and_importing_data_with_plant_3d"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -331,7 +330,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_blue"
                 android:padding="5dp"
-                android:text="How about a Nice Hawaiian Punchlist?"
+                android:text="@string/how_about_a_nice_hawaiian_punchlist"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -343,7 +342,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_orange"
                 android:padding="5dp"
-                android:text="The Art of the Family"
+                android:text="@string/the_art_of_the_family"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -370,7 +369,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="15dp"
-                android:text="2:00-3:10PM"
+                android:text="@string/_2_00_3_10pm"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -382,7 +381,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_red"
                 android:padding="5dp"
-                android:text="Commitment to People: Using Kanban"
+                android:text="@string/commitment_to_people_using_kanban"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -394,7 +393,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_blue"
                 android:padding="5dp"
-                android:text="Navisworks Simulate as a Designer’s Tool."
+                android:text="@string/navisworks_simulate_as_a_designer_s_tool"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -406,7 +405,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_orange"
                 android:padding="5dp"
-                android:text="Capturing your Clients Reality on Small Projects with Laser Scanner Made Easy"
+                android:text="@string/capturing_your_clients_reality_on_small_projects_with_laser_scanner_made_easy"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -433,7 +432,7 @@
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="15dp"
-                android:text="3:20-4:30PM"
+                android:text="@string/_3_20_4_30pm"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -445,8 +444,7 @@
                 android:layout_weight="1"
                 android:background="@color/off_red"
                 android:padding="5dp"
-                android:text="Its All About the Plan! BIM
-Execution Plan That is..."
+                android:text="@string/its_all_about_the_plan_bim_execution_plan_that_is"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -458,7 +456,7 @@ Execution Plan That is..."
                 android:layout_weight="1"
                 android:background="@color/off_blue"
                 android:padding="10dp"
-                android:text="Moving Mountains - Getting Large Clients on Board with New Technologies and the Cloud"
+                android:text="@string/moving_mountains_getting_large_clients_on_board_with_new_technologies_and_the_cloud"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -470,7 +468,7 @@ Execution Plan That is..."
                 android:layout_weight="1"
                 android:background="@color/off_orange"
                 android:padding="5dp"
-                android:text="Diagramming the System"
+                android:text="@string/diagramming_the_system"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -496,7 +494,7 @@ Execution Plan That is..."
                 android:layout_weight="3"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="4:40-5:00PM"
+                android:text="@string/_4_40_5_00pm"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -508,7 +506,7 @@ Execution Plan That is..."
                 android:layout_weight="1"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="Plus / Delta Conference Debrief "
+                android:text="@string/plus_delta_conference_debrief"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -516,7 +514,6 @@ Execution Plan That is..."
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout11_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -534,7 +531,7 @@ Execution Plan That is..."
                 android:layout_weight="3"
                 android:background="@color/tan"
                 android:padding="5dp"
-                android:text="5:30PM"
+                android:text="@string/_5_30pm"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
@@ -546,7 +543,7 @@ Execution Plan That is..."
                 android:layout_weight="1"
                 android:background="@color/Yellow"
                 android:padding="5dp"
-                android:text="Social Function"
+                android:text="@string/social_function"
                 android:textColor="@color/black"
                 android:textSize="10sp" />
 
