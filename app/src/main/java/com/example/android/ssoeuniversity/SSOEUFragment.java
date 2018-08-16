@@ -1,6 +1,7 @@
 package com.example.android.ssoeuniversity;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -15,26 +16,26 @@ import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
-public class SSOEUFragment extends Fragment {
+public class SSOEUFragment extends Fragment implements View.OnClickListener {
 
     private static final int REQUEST_CALL = 1;
 
     private static final int ERROR_DIALOG_REQUEST = 9001;
-
+    Activity context;
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        context = getActivity();
         View view = inflater.inflate(R.layout.fragment_ssoeu, container, false);
-
-        // FloatingActionButton twitterAction = view.findViewById()
 
 
         if (isServicesOK()) {
@@ -50,6 +51,8 @@ public class SSOEUFragment extends Fragment {
 
             }
         });
+
+        openTwitter(view);
 
         return view;
     }
@@ -109,5 +112,33 @@ public class SSOEUFragment extends Fragment {
 
         }
         return false;
+    }
+
+    void openTwitter(View view) {
+
+        ImageView twitter_iv = view.findViewById(R.id.twitter_iv);
+        TextView twitter_tv = view.findViewById(R.id.twitter_tv);
+
+        twitter_iv.setOnClickListener(this);
+        twitter_tv.setOnClickListener(this);
+
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        switch (v.getId()) {
+            case R.id.twitter_iv:
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/login?lang=en"));
+                startActivity(intent);
+                break;
+            case R.id.twitter_tv:
+                Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/login?lang=en"));
+                startActivity(intent2);
+                break;
+            default:
+                break;
+        }
     }
 }

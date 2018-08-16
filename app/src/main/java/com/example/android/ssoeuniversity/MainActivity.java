@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
         // Set up the ViewPager with the sections adapter
         ViewPager mViewPager = findViewById(R.id.container);
         setupViewPager(mViewPager);
 
         TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -32,6 +32,5 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new ThingsToDoFragment(), "Things To DO");
         viewPager.setAdapter(adapter);
     }
-
 
 }

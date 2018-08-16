@@ -129,7 +129,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="1dp"
@@ -207,7 +209,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.1a"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -219,7 +223,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.1b"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -231,7 +237,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.1c"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -311,7 +319,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.2a"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -323,7 +333,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.2b"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -335,7 +347,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.2c"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -374,7 +388,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.3a"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -386,7 +402,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.3b"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -398,7 +416,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.3c"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -437,7 +457,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.4a"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -449,7 +471,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.4b"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
@@ -461,7 +485,9 @@
                 android:textSize="10sp" />
 
             <TextView
-
+                android:id="@+id/day2.4c"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginStart="1dp"
