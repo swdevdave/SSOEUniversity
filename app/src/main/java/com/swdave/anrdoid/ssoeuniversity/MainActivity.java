@@ -1,9 +1,11 @@
-package com.example.android.ssoeuniversity;
+package com.swdave.anrdoid.ssoeuniversity;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.android.ssoeuniversity.R;
 
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.android.ssoeuniversity;
+package com.swdave.anrdoid.ssoeuniversity;
 
 import android.Manifest;
 import android.app.Activity;
@@ -20,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.ssoeuniversity.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
@@ -27,7 +28,6 @@ public class SSOEUFragment extends Fragment implements View.OnClickListener {
 
     private static final int REQUEST_CALL = 1;
 
-    private static final int ERROR_DIALOG_REQUEST = 9001;
     Activity context;
 
 
@@ -37,10 +37,8 @@ public class SSOEUFragment extends Fragment implements View.OnClickListener {
         context = getActivity();
         View view = inflater.inflate(R.layout.fragment_ssoeu, container, false);
 
-
-        if (isServicesOK()) {
             maps(view);
-        }
+
 
         TextView phone = view.findViewById(R.id.callHotel);
         phone.setOnClickListener(new View.OnClickListener() {
@@ -75,8 +73,8 @@ public class SSOEUFragment extends Fragment implements View.OnClickListener {
 
 
     private void maps(View view) {
-        TextView hilton = view.findViewById(R.id.hilton_address);
-        hilton.setOnClickListener(new View.OnClickListener() {
+        ImageView map = view.findViewById(R.id.map);
+        map.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -88,30 +86,6 @@ public class SSOEUFragment extends Fragment implements View.OnClickListener {
             }
         });
 
-    }
-
-
-    public boolean isServicesOK() {
-
-
-        int available = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(getActivity());
-
-        if (available == ConnectionResult.SUCCESS) {
-            // Everything is fine, user can make map requests.
-
-            return true;
-
-        } else if (GoogleApiAvailability.getInstance().isUserResolvableError(available)) {
-            // An Error occurred, but fixable
-
-            Dialog dialog = GoogleApiAvailability.getInstance().getErrorDialog(getActivity(), available, ERROR_DIALOG_REQUEST);
-            dialog.show();
-
-        } else {
-            Toast.makeText(getActivity(), "Unable to make map requests", Toast.LENGTH_SHORT).show();
-
-        }
-        return false;
     }
 
     void openTwitter(View view) {

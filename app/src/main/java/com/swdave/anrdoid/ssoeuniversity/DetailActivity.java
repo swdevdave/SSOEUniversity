@@ -1,15 +1,16 @@
-package com.example.android.ssoeuniversity;
+package com.swdave.anrdoid.ssoeuniversity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.example.android.ssoeuniversity.R;
+
 import java.util.ArrayList;
 
 public class DetailActivity extends AppCompatActivity {
 
-    private static final String TAG = "DetailActivity";
     private ArrayList<String> mName = new ArrayList<>();
     private ArrayList<String> mAuthor = new ArrayList<>();
     private ArrayList<String> mContent = new ArrayList<>();
@@ -18,7 +19,6 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        Log.d(TAG, "onCreate: opened");
         createData();
         getIncomingIntent();
 
@@ -27,10 +27,8 @@ public class DetailActivity extends AppCompatActivity {
     void getIncomingIntent() {
 
         String location = getIntent().getStringExtra("location");
-        Log.d(TAG, "getIncomingIntent: location = " + location);
 
         setDetail(location);
-
 
     }
 
@@ -39,9 +37,6 @@ public class DetailActivity extends AppCompatActivity {
         TextView title = findViewById(R.id.title_tv);
         TextView author = findViewById(R.id.author_tv);
         TextView content = findViewById(R.id.content_tv);
-
-
-        Log.d(TAG, "setDetail: " + location);
 
         title.setText(mName.get(Integer.parseInt(location)));
         author.setText(mAuthor.get(Integer.parseInt(location)));

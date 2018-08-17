@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tan"
-    tools:context=".MainActivity">
+    tools:context="com.swdave.anrdoid.ssoeuniversity.MainActivity">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,7 +15,6 @@
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="170dp"
-            android:layout_marginTop="8dp"
             android:contentDescription="@string/ssoe_u"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,9 +24,9 @@
         <TextView
             android:id="@+id/textView"
             style="@style/SSOE"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
             android:text="@string/_2nd_annual"
-            android:textSize="30sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -37,10 +36,10 @@
             style="@style/SSOE"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="@string/august_22nd_23rd"
             android:textAlignment="center"
-            android:textSize="24sp"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -55,7 +54,7 @@
             android:focusable="true"
             android:text="@string/hilton_gardens"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -72,38 +71,54 @@
             android:clickable="true"
             android:focusable="true"
             android:text="@string/hilton_gardens_phone"
-            android:textSize="20sp"
+            android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/hilton_address" />
+
 
         <TextView
             android:id="@+id/twitter_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="52dp"
+            android:layout_marginTop="8dp"
             android:clickable="true"
             android:focusable="true"
             android:text="@string/ssoeubimvdc"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.041"
             app:layout_constraintStart_toEndOf="@+id/twitter_iv"
-            app:layout_constraintTop_toBottomOf="@+id/callHotel" />
+            app:layout_constraintTop_toBottomOf="@+id/map" />
 
         <ImageView
             android:id="@+id/twitter_iv"
             android:layout_width="33dp"
             android:layout_height="33dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="8dp"
             android:clickable="true"
             android:contentDescription="@string/twitter_icon"
             android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/map"
+            app:srcCompat="@drawable/twitter_icon" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="168dp"
+            android:layout_height="133dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/callHotel"
-            app:srcCompat="@drawable/twitter_icon" />
+            app:srcCompat="@drawable/map" />
 
 
     </android.support.constraint.ConstraintLayout>
