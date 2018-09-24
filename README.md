@@ -1,6 +1,6 @@
 # SSOE University App
 
-## Developed for 2nd Annual SSOE Univerity Confrence in Toledo Oho
+## Developed for 2nd Annual SSOE Univerity Confrence in Toledo Ohio
 
 # Features
 - Google Maps intregration
