@@ -11,7 +11,10 @@ App was removed from the Google play store due to Marketing Department Complianc
 
 
 # Screenshots
-<img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot1.png"/><img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot2.png"/><img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot3.png"/><img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot4.png"/>
+<img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot1.png"height="300"/>&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot2.png"height="300"/>&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot3.png"height="300"/>&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/swdevdave/SSOEUniversity/blob/master/ScreenShot4.png"height="300"/>&nbsp;&nbsp;&nbsp;
 
 
 ```
